@@ -1,0 +1,70 @@
+<!-- 
+  TODO: Create a motivational post website.
+Style it how ever you like. 
+Look at the goal image for inspiration.
+But it must have the following features:
+1. The main h1 text should be using the Regular Libre Baskerville Font from Google Fonts:
+  https://fonts.google.com/specimen/Libre+Baskerville
+2. The text should be white and background black.
+3. Add your own image into the images folder inside assets. It should have a 5px white border.
+4. The text should be center aligned.
+5. Create a div to contain the h1, p and img elements. Adjust the margins so that the image and text are centered on the page. 
+  Hint: You horizontally center a div by giving it a width of 50% and a margin-left of 25%.
+  Hint: Set the image to have a width of 100% so it fills the div. 
+6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS.
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>motivational poster</title>
+  <style>
+    html{
+      background-color: black;
+    }
+   
+      
+    
+     #destiny{
+      width:50%;
+      position: relative;
+      top: 150px;
+      left: 450px;
+      
+      
+
+    }
+    h1{
+      text-align: center;
+      color: aliceblue;
+      
+
+      
+    }
+    h2{
+      text-align: center;
+      color:aliceblue;
+      font-family: cursive;
+    }
+    div>h1,div>h2{
+      text-align: center;
+      position: relative;
+      left: 100px;
+      bottom: 10px;
+    }
+   
+    
+  </style>
+</head>
+<body>
+  <div id="destiny">
+    <div>
+  <img src="./my first motivational poster.jpg"  width="700px" height="400px"  style="border: 10px solid moccasin ;" ><br></div></div>
+    <div><h1 style="color: black;">DESTINY</h1>
+      <h2 >Destiny is the push of our instincts<br> to the pull of our purpose</h2>></div>
+
+  
+</body>
+</html>
